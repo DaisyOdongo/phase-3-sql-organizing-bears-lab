@@ -1,8 +1,9 @@
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Mr. Chocolate", 5, "M", "Brown", "High", 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Rowdy", 2, "F", "Black", "Low", 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Tabitha", 7, "F", "Brown", "Medium", 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Sergeant Brown", 11, "M", "Brown", "High", 0);
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Melissa", 10, "F", "White", "Low", 0);
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Grinch", 8, "M", "Black", "High", 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Wendy", 9, "F", "Brown", "Low", 1);
-INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES (NULL, 15, "M", "Brown", "High", 1);
+INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES 
+("Mr. Chocolate", 25, "M", "Gray", "quiet", 0),
+("Rowdy", 8, "F", "White", "noisy", 1),
+("Tabitha", 12, "M", "Brown", "calm", 1),
+("Sergeant Brown", 32, "F", "Gray", "aggressive", 0),
+("Melissa", 16, "F", "Dark Gray", "friendly", 1),
+("Grinch", 48, "M", "Pink", "sweet", 0),
+("Wendy", 23, "F", "Gray", "choleric", 1),
+(NULL, 27, "M", "Blue", "calm", 0);
